@@ -153,6 +153,17 @@ pnpm run test:watch
 ### Data Validation
 The system includes comprehensive tests to ensure data integrity and proper formatting. Always run tests after making changes to override files.
 
+The test `should have unique first words for all chains` ensures correct grouping of networks. 
+Sometimes, the data from the primary source contains several networks belonging to the same blockchain, but with slightly different names. 
+Usually, the first word is the same.
+For example, `Boba BNB Mainnet` and `Boba BNB Testnet` are both networks of the chain `Boba BNB`. 
+This test identifies such inconsistencies. 
+To fix them, add mappings to `override-chain-names.json`. In this case:
+```
+   "Boba BNB Mainnet": "Boba BNB",
+   "Boba BNB Testnet": "Boba BNB",
+```
+
 ## Contributing
 
 1. **Check existing data**: Always verify if the network/RPC already exists in the primary source

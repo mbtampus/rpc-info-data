@@ -149,5 +149,13 @@
   "solana": "Solana",
   "apechain": "Apechain",
   "ronin": "Ronin",
-  "sonic": "Sonic"
+  "sonic": "Sonic",
+  "AB": "AB Core",
+  "Arc Network": "Arc",
+  "Jasmy Chain Testnet": "Jasmy Chain",
+  "MONSOON ALPHA": "MONSOON",
+  "OpenLedger Testnet": "OpenLedger",
+  "PRUV Mainnet": "PRUV",
+  "PRUV Testnet": "PRUV",
+  "Qubetics Mainnet": "Qubetics"
 }
