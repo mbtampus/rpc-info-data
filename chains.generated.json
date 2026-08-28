@@ -7636,39 +7636,6 @@
     ]
   },
   {
-    "chain": "Bellecour",
-    "icon": "rlc",
-    "networks": [
-      {
-        "name": "iExec Sidechain",
-        "chain": "Bellecour",
-        "icon": "rlc",
-        "rpc": [
-          "https://bellecour.iex.ec"
-        ],
-        "faucets": [],
-        "nativeCurrency": {
-          "name": "xRLC",
-          "symbol": "xRLC",
-          "decimals": 18
-        },
-        "infoURL": "https://iex.ec",
-        "shortName": "rlc",
-        "chainId": 134,
-        "networkId": 134,
-        "explorers": [
-          {
-            "name": "blockscout",
-            "url": "https://blockscout.bellecour.iex.ec",
-            "icon": "blockscout",
-            "standard": "EIP3091"
-          }
-        ],
-        "slug": "iexec-sidechain"
-      }
-    ]
-  },
-  {
     "chain": "Berachain",
     "icon": "berachain",
     "networks": [
@@ -44046,7 +44013,7 @@
           }
         ],
         "rpc": [
-          "https://respected-translations-volumes-tones.trycloudflare.com"
+          "https://jackson-sells-receipt-african.trycloudflare.com"
         ]
       },
       {
@@ -44066,7 +44033,7 @@
           }
         ],
         "rpc": [
-          "https://turner-sussex-maintained-relative.trycloudflare.com"
+          "https://bias-flickr-trains-baghdad.trycloudflare.com"
         ]
       }
     ]
@@ -62036,6 +62003,7 @@
         "chain": "Robinhood",
         "rpc": [
           "https://rpc.mainnet.chain.robinhood.com",
+          "https://robinhood-rpc.publicnode.com",
           "https://rpc.arrowrpc.com"
         ],
         "faucets": [],
@@ -62049,6 +62017,12 @@
         "chainId": 4663,
         "networkId": 4663,
         "explorers": [
+          {
+            "name": "robinscan",
+            "url": "https://robinscan.io",
+            "icon": "robinscan",
+            "standard": "EIP3091"
+          },
           {
             "name": "blockscout",
             "url": "https://robinhoodchain.blockscout.com",
@@ -62073,7 +62047,8 @@
         "title": "Robinhood Chain Testnet",
         "chain": "Robinhood",
         "rpc": [
-          "https://rpc.testnet.chain.robinhood.com/rpc"
+          "https://rpc.testnet.chain.robinhood.com/rpc",
+          "https://robinhood-sepolia-rpc.publicnode.com"
         ],
         "faucets": [],
         "nativeCurrency": {
@@ -73058,6 +73033,56 @@
           }
         ],
         "slug": "tixchain-testnet"
+      }
+    ]
+  },
+  {
+    "chain": "TJR",
+    "icon": "tajir",
+    "networks": [
+      {
+        "name": "Tajir Chain",
+        "chain": "TJR",
+        "rpc": [
+          "https://rpc.tajirchain.com"
+        ],
+        "nativeCurrency": {
+          "name": "Tajir",
+          "symbol": "TJR",
+          "decimals": 18
+        },
+        "features": [
+          {
+            "name": "EIP155"
+          },
+          {
+            "name": "EIP1559"
+          }
+        ],
+        "infoURL": "https://tajirchain.com",
+        "shortName": "tjr",
+        "chainId": 3377,
+        "networkId": 3377,
+        "icon": "tajir",
+        "faucets": [],
+        "explorers": [
+          {
+            "name": "Tajir Explorer",
+            "url": "https://explorer.tajirchain.com",
+            "icon": "tajir",
+            "standard": "EIP3091"
+          }
+        ],
+        "parent": {
+          "type": "L2",
+          "chain": "eip155-1",
+          "bridges": [
+            {
+              "url": "https://bridge.tajirchain.com"
+            }
+          ]
+        },
+        "slug": "tajir-chain"
       }
     ]
   },
